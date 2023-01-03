@@ -1,0 +1,74 @@
+body {
+    background-image: url(photo-1622737133809-d95047b9e673.jpg);
+    background-repeat: no-repeat;
+  height: auto;
+  background-attachment: fixed;
+  background-size:cover ;
+}
+
+nav{
+  text-decoration: none;
+  color: aliceblue;
+  list-style: none;
+  display: inline-flex;
+  
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .nav-butt{
+    display: inline-block;
+}
+.logo p{
+    font-size: 40px;
+    padding-left: 20px;
+    cursor: pointer;
+    
+}
+.nav-butt li a{
+    margin-right: 30px;
+    font-size: 20px;
+    transition: all 0.5s ease 0s;
+    
+}
+.nav-butt li a:hover{
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: orangered;
+
+}
+button{
+    padding: 12px 24px;
+    font-size: 20px;
+    align-items: center;
+    background-color: rgb(255, 115, 0);
+    border-radius:30px;
+    transition: all 1.1s ease 0s;
+}
+button:hover{
+    background-color: rgb(255, 153, 0);
+}
+.icon{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.icon i{
+    background-color: orangered;
+    height: 100px;
+    width: 100px;
+    border-radius: 75px;
+    text-align: center;
+    line-height: 100px;
+    justify-items: center;
+    color: black;
+}
+.icon i{
+    transition: all .4s linear;
+}
+.icon i:hover {
+    transform: scale(1.1);
+}
