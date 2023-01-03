@@ -75,7 +75,7 @@ header {
     margin-right: 10px;
 }
 .icon i{
-    background-color: orangered;
+    background-color: rgb(255, 255, 255);
     height: 50px;
     width: 50px;
     
@@ -84,6 +84,9 @@ header {
     line-height: 50px;
     justify-items: center;
     color: black;
+}
+.icon i:hover{
+    background-color: rgb(255, 72, 0);
 }
 .icon i{
     transition: all .4s linear;
